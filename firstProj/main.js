@@ -13,3 +13,8 @@ console.log('Yaroslav')
 var a = 2;
 var b = 3;
 console.log(a + ' + ' + b + ' = ' + (a + b));
+console.log("Theis is a long string");
+console.log("Theis is a long string".slice(0, 5));
+console.log(true && false);
+console.log(1 != 2);
+console.log(1 == 2);
