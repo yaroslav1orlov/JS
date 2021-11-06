@@ -17,4 +17,4 @@ console.log("Theis is a long string");
 console.log("Theis is a long string".slice(0, 5));
 console.log(true && false);
 console.log(1 != 2);
-console.log(1 == 2);
+console.log(1 == 2);   
