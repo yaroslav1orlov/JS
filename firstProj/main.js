@@ -17,4 +17,13 @@ console.log("Theis is a long string");
 console.log("Theis is a long string".slice(0, 5));
 console.log(true && false);
 console.log(1 != 2);
-console.log(1 == 2);   
+console.log(1 == 2);
+var Boom;
+// ________________________________________________________
+var hoursInADay = 24;
+var secondsInMinute = 60;
+var minuteInHour = 60;
+var secondsInHour = secondsInMinute * minuteInHour;
+console.log('secondsInHour:' + secondsInHour);
+var secondsInDay = secondsInHour * hoursInADay ;
+console.log('secondsInDay:' + secondsInDay);
