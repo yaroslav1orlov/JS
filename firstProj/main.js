@@ -26,4 +26,9 @@ var minuteInHour = 60;
 var secondsInHour = secondsInMinute * minuteInHour;
 console.log('secondsInHour:' + secondsInHour);
 var secondsInDay = secondsInHour * hoursInADay ;
-console.log('secondsInDay:' + secondsInDay);
+console.log('secondsInDay:' + secondsInDay)
+// ______________________________________________
+var daysInYear = 365;
+var secondsInAYear = secondsInMinute * minuteInHour * hoursInADay * daysInYear;
+console.log('secondsInAYear: ' + secondsInAYear);
+// ______________________________________________
