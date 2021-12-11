@@ -61,4 +61,10 @@ highFives = 0;
 console.log('highFives = ---> (' + highFives + ')' );
 console.log('highFives-- = ---> (' + highFives-- + ')' );
 console.log('highFives = ---> (' + highFives + ')' );
-// плюс = мінус дорівнює_______________________________________________
+// плюс дорівнює|мінус дорівнює_______________________________________________
+var x = 10;
+console.log(x + 5 );
+x;
+var score = 10;
+console.log(score += 7);
+console.log(score -= 3);
