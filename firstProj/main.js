@@ -34,8 +34,31 @@ var secondsInAYear = secondsInMinute * minuteInHour * hoursInADay * daysInYear;
 console.log('secondsInAYear: ' + secondsInAYear);
 // секунд в годах________________________________
 // мне 283824000 секунд__________________________
+// а скільки в тобі секунд?_
+//                          |
+//                          |
+//                         \ /
+//                          '
 var userInput = prompt();
 console.log('//_______________________________________________');
 console.log('userInput: <--- (' + userInput + ')');
 var age = 9;
 console.log('secondsInAYear(s): <--- (' + secondsInAYear * age + ')');
+//_______________________________________________
+var highFives = 0;
+console.log('highFives = ---> (' + highFives + ')' );
+console.log('++highFives = ---> (' + ++highFives + ')' );
+console.log('highFives = ---> (' + highFives + ')' );
+highFives = 0;
+console.log('highFives = ---> (' + highFives + ')' );
+console.log('--highFives = ---> (' + --highFives + ')' );
+console.log('highFives = ---> (' + highFives + ')' );
+highFives = 0;
+console.log('highFives = ---> (' + highFives + ')' );
+console.log('highFives++ = ---> (' + highFives++ + ')' );
+console.log('highFives = ---> (' + highFives + ')' );
+highFives = 0;
+console.log('highFives = ---> (' + highFives + ')' );
+console.log('highFives-- = ---> (' + highFives-- + ')' );
+console.log('highFives = ---> (' + highFives + ')' );
+// плюс = мінус дорівнює_______________________________________________
