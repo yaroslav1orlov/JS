@@ -68,3 +68,8 @@ x;
 var score = 10;
 console.log(score += 7);
 console.log(score -= 3);
+// ______________________________________________
+var balloons = 100;
+console.log(balloons *= 2);
+var balloons = 100;
+console.log(balloons /= 4);
