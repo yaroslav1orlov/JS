@@ -1,5 +1,4 @@
 //debugger;
-
 // ресуем котиков________________________________
 console.log('=^.^=');
 var drawCats = function (hawManyTimes) {
@@ -73,3 +72,5 @@ var balloons = 100;
 console.log(balloons *= 2);
 var balloons = 100;
 console.log(balloons /= 4);
+// визначаємо довжину рядка______________________
+console.log("________________________________________________".length);
