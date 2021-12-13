@@ -60,7 +60,7 @@ highFives = 0;
 console.log('highFives = ---> (' + highFives + ')' );
 console.log('highFives-- = ---> (' + highFives-- + ')' );
 console.log('highFives = ---> (' + highFives + ')' );
-// плюс дорівнює|мінус дорівнює_______________________________________________
+// плюс дорівнює|мінус дорівнює__________________
 var x = 10;
 console.log(x + 5 );
 x;
@@ -73,4 +73,17 @@ console.log(balloons *= 2);
 var balloons = 100;
 console.log(balloons /= 4);
 // визначаємо довжину рядка______________________
-console.log("________________________________________________".length);
+//
+//                          |
+//                          |
+//                         \ /
+//                          '
+//                         \
+//                          \/
+//                      правельно
+console.log("__________________________________________________".length);
+// true | false__________________________________
+var JSIsCool = true;
+console.log('JSIsCool? Yes thes is ' + JSIsCool);
+var JSIsBed = false;
+console.log('JSIsBed? No!!! thes is ' + JSIsBed+'!');
