@@ -78,12 +78,17 @@ console.log(balloons /= 4);
 //                          |
 //                         \ /
 //                          '
+//
 //                         \
 //                          \/
-//                      правельно
+//
+//                       правельно
 console.log("__________________________________________________".length);
 // true | false__________________________________
 var JSIsCool = true;
 console.log('JSIsCool? Yes thes is ' + JSIsCool);
 var JSIsBed = false;
 console.log('JSIsBed? No!!! thes is ' + JSIsBed+'!');
+//_______________________________________________
+console.log(0 == false);
+console.log("false" == false);
