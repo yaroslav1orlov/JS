@@ -86,9 +86,9 @@ console.log(balloons /= 4);
 console.log("__________________________________________________".length);
 // true | false__________________________________
 var JSIsCool = true;
-console.log('JSIsCool? Yes thes is ' + JSIsCool);
-var JSIsBed = false;
-console.log('JSIsBed? No!!! thes is ' + JSIsBed+'!');
+console.log('IsJSCool? Yes it is ' + JSIsCool);
+var JSIsBad = false;
+console.log('IsJSBad? No!!! It is ' + JSIsBad + '!');
 //_______________________________________________
 console.log(0 == false);
 console.log("false" == false);
