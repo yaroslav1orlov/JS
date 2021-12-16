@@ -85,28 +85,28 @@ console.log(balloons /= 4);
 //                       правельно
 console.log("__________________________________________________".length);
 // true | false__________________________________
-var JSIsCool = true;
+var jsIsCool = true;
 console.log('IsJSCool? Yes it is ' + JSIsCool);
-var JSIsBad = false;
+var jsIsBad = false;
 console.log('IsJSBad? No!!! It is ' + JSIsBad + '!');
 //_______________________________________________
 console.log(0 == false);
 console.log("false" == false);
-var dinosaur1 = "T-rex"
+var dinosaur1 = "T-rex";
 console.log(dinosaur1);
-var dinosaur2 = "Velccirator"
+var dinosaur2 = "Velccirator";
 console.log(dinosaur2);
-var dinosaur3 = "Stegosaurus"
+var dinosaur3 = "Stegosaurus";
 console.log(dinosaur3);
-var dinosaur4 = "Triceratops"
+var dinosaur4 = "Triceratops";
 console.log(dinosaur4);
-var dinosaur5 = "Brachiosaurus"
+var dinosaur5 = "Brachiosaurus";
 console.log(dinosaur5);
-var dinosaur6 = "Pteranodon"
+var dinosaur6 = "Pteranodon";
 console.log(dinosaur6);
-var dinosaur7 = "Apatosaurus"
+var dinosaur7 = "Apatosaurus";
 console.log(dinosaur7);
-var dinosaur8 = "Diplodocus"
+var dinosaur8 = "Diplodocus";
 console.log(dinosaur8);
-var dinosaur9 = "Compsognathus"
+var dinosaur9 = "Compsognathus";
 console.log(dinosaur9);
