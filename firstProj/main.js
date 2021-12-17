@@ -86,12 +86,13 @@ console.log(balloons /= 4);
 console.log("__________________________________________________".length);
 // true | false__________________________________
 var jsIsCool = true;
-console.log('IsJSCool? Yes it is ' + JSIsCool);
+console.log('IsJSCool? Yes it is ' + jsIsCool);
 var jsIsBad = false;
-console.log('IsJSBad? No!!! It is ' + JSIsBad + '!');
+console.log('IsJSBad? No!!! It is ' + jsIsBad + '!');
 //_______________________________________________
 console.log(0 == false);
 console.log("false" == false);
+//_______________________________________________
 var dinosaur1 = "T-rex";
 console.log(dinosaur1);
 var dinosaur2 = "Velccirator";
@@ -110,3 +111,11 @@ var dinosaur8 = "Diplodocus";
 console.log(dinosaur8);
 var dinosaur9 = "Compsognathus";
 console.log(dinosaur9);
+//_______________________________________________
+var dinosaurs = ["T-rex", "Velccirator", "Stegosaurus", "Triceratops", "Brachiosaurus",
+                "Pteranodon", "Apatosaurus", "Diplodocus", "Compsognathus"];
+
+for (let i = 0; i < dinosaurs.length; i++) {
+    const element = dinosaurs[i];
+    console.log(element);
+}
