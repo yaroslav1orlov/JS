@@ -40,3 +40,7 @@ din2[9] = "Compsognathus";
 
 print(din2)
 //_______________________________________________
+var maniacs = ['Yakko','Wakko','Dot'];
+console.log(maniacs[0]);
+console.log(maniacs[1]);
+console.log(maniacs[2]);
