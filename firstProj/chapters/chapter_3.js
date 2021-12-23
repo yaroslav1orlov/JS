@@ -44,3 +44,22 @@ var maniacs = ['Yakko','Wakko','Dot'];
 console.log(maniacs[0]);
 console.log(maniacs[1]);
 console.log(maniacs[2]);
+//_______________________________________________
+var animals = [];
+for (let i = 0; i < animals.length; i++) {
+    const element = animals[i];
+     
+}
+animals.push("Cat");
+console.log(animals.length);
+animals.push("Dog");
+console.log(animals.length);
+animals.push("Llama");
+console.log(animals.length);
+var cat = 0
+var dog = 1
+var llama = 2
+console.log('animals[0]: ' + animals[cat]);
+console.log('animals[1]: ' + animals[dog]);
+console.log('animals[2]: ' + animals[llama]);
+//_______________________________________________
