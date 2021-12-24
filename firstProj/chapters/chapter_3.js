@@ -4,7 +4,7 @@ var dinosaurs = ["T-rex", "Velccirator", "Stegosaurus", "Triceratops", "Brachios
 var print = function(arr){
     for (let i = 0; i < arr.length; i++) {
         const element = arr[i];
-        console.log(element);
+        console.log(i + ". item: " + element);
     }
 }
 //_______________________________________________
@@ -48,8 +48,9 @@ console.log(maniacs[2]);
 var animals = [];
 for (let i = 0; i < animals.length; i++) {
     const element = animals[i];
-     
+
 }
+console.log(animals);
 animals.push("Cat");
 console.log(animals.length);
 animals.push("Dog");
@@ -62,4 +63,31 @@ var llama = 2
 console.log('animals[0]: ' + animals[cat]);
 console.log('animals[1]: ' + animals[dog]);
 console.log('animals[2]: ' + animals[llama]);
+print(animals);
 //_______________________________________________
+var animals = [];
+for (let i = 0; i < animals.length; i++) {
+    const element = animals[i];
+
+}
+animals.push("Cat");
+console.log(animals.length);
+animals.push("Dog");
+console.log(animals.length);
+animals.push("Llama");
+console.log(animals.length);
+animals.push("monkey");
+console.log(animals.length);
+animals.push("polarBear");
+console.log(animals.length);
+var cat =   0
+var dog =    1
+var llama =   2
+var monkey =   3
+var polarBear = 4
+console.log('animals[0]: ' + animals[cat]);
+console.log('animals[1]: ' + animals[dog]);
+console.log('animals[2]: ' + animals[llama]);
+console.log('animals[3]: ' + animals[monkey]);
+console.log('animals[4]: ' + animals[polarBear]);
+console.log(animals);
