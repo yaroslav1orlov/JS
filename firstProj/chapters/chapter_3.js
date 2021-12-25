@@ -65,11 +65,6 @@ console.log('animals[1]: ' + animals[dog]);
 console.log('animals[2]: ' + animals[llama]);
 print(animals);
 //_______________________________________________
-var animals = [];
-for (let i = 0; i < animals.length; i++) {
-    const element = animals[i];
-
-}
 animals.push("Cat");
 console.log(animals.length);
 animals.push("Dog");
@@ -91,3 +86,15 @@ console.log('animals[2]: ' + animals[llama]);
 console.log('animals[3]: ' + animals[monkey]);
 console.log('animals[4]: ' + animals[polarBear]);
 console.log(animals);
+console.log('//____________________________________________________');
+//_______________________________________________
+var furryAnimals = ['Flpkaka', 'Ring-tailed lemur', 'Yeti'];
+console.log(furryAnimals);
+var scalyAnimals = ['Boa constrictor', 'Godzilla'];
+console.log(scalyAnimals);
+var featheredAnimals = ['Ara', 'Dodo'];
+console.log(featheredAnimals);
+
+var allAnimals = furryAnimals.concat(scalyAnimals, featheredAnimals);
+console.log(allAnimals);
+//_______________________________________________
