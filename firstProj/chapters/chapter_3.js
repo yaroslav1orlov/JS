@@ -98,3 +98,8 @@ console.log(featheredAnimals);
 var allAnimals = furryAnimals.concat(scalyAnimals, featheredAnimals);
 console.log(allAnimals);
 //_______________________________________________
+var color = ['red', 'green', 'blue'];
+print(color);
+console.log('indexOf("blue") = ' + color.indexOf('blue'));
+console.log('indexOf("green") = ' + color.indexOf('green'));
+console.log('indexOf("red") = ' + color.indexOf('red'));
