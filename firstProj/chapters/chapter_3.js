@@ -103,3 +103,11 @@ print(color);
 console.log('indexOf("blue") = ' + color.indexOf('blue'));
 console.log('indexOf("green") = ' + color.indexOf('green'));
 console.log('indexOf("red") = ' + color.indexOf('red'));
+//_______________________________________________
+console.log(color[2]);
+console.log(color.indexOf('blue'));
+console.log(color[0]);
+console.log(color.indexOf('red'));
+console.log(color[1]);
+console.log(color.indexOf('green'));
+//_______________________________________________
