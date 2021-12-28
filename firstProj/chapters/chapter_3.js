@@ -111,3 +111,6 @@ console.log(color.indexOf('red'));
 console.log(color[1]);
 console.log(color.indexOf('green'));
 //_______________________________________________
+//_There_is_no_element_in_the_array______________
+console.log(color.indexOf('Violet'));
+//_______________________________________________
