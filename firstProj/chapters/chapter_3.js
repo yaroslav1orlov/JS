@@ -111,3 +111,7 @@ console.log(color.indexOf('red'));
 console.log(color[1]);
 console.log(color.indexOf('green'));
 //_______________________________________________
+var boringAnimals = ['Martishka', 'Cat', 'Riba', 'Lizard',];
+console.log(boringAnimals);
+console.log(boringAnimals.join());
+//_______________________________________________
