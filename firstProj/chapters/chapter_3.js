@@ -48,7 +48,6 @@ console.log(maniacs[2]);
 var animals = [];
 for (let i = 0; i < animals.length; i++) {
     const element = animals[i];
-
 }
 console.log(animals);
 animals.push("Cat");
@@ -64,11 +63,6 @@ console.log('animals[0]: ' + animals[cat]);
 console.log('animals[1]: ' + animals[dog]);
 console.log('animals[2]: ' + animals[llama]);
 print(animals);
-//_______________________________________________
-console.log(animals);
-console.log(animals[0]);
-console.log(animals.unshift("monkey"));
-console.log(animals);
 //_______________________________________________
 animals.push("Cat");
 console.log(animals.length);
@@ -118,5 +112,4 @@ console.log(color.indexOf('green'));
 //_______________________________________________
 var boringAnimals = ['Martishka', 'Cat', 'Riba', 'Lizard',];
 console.log(boringAnimals);
-console.log(boringAnimals.join());
-//_______________________________________________
+console.log(boringAnimals.join(["Bee", "Ant"]));
