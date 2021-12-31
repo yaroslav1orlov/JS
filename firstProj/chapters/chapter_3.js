@@ -65,6 +65,11 @@ console.log('animals[1]: ' + animals[dog]);
 console.log('animals[2]: ' + animals[llama]);
 print(animals);
 //_______________________________________________
+console.log(animals);
+console.log(animals[0]);
+console.log(animals.unshift("monkey"));
+console.log(animals);
+//_______________________________________________
 animals.push("Cat");
 console.log(animals.length);
 animals.push("Dog");
