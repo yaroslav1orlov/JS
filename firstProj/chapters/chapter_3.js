@@ -113,3 +113,10 @@ console.log(color.indexOf('green'));
 var boringAnimals = ['Martishka', 'Cat', 'Riba', 'Lizard',];
 console.log(boringAnimals);
 console.log(boringAnimals.join(["Bee", "Ant"]));
+//_______________________________________________
+//_There_is_no_element_in_the_array______________
+console.log(color.indexOf('Violet'));
+//_______________________________________________
+var insects = ["Bee", "Ant", "Bee", "Bee", "Ant"];
+console.log(insects.indexOf("Ant"));
+//_______________________________________________
