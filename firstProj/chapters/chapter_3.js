@@ -124,3 +124,7 @@ console.log(animals);
 console.log(animals.unshift("monkey"));
 console.log(animals);
 //_______________________________________________
+var lastAnimal = animals.pop();
+console.log(lastAnimal);
+console.log(animals);
+//_______________________________________________
