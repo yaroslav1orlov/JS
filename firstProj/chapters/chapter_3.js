@@ -120,3 +120,7 @@ console.log(color.indexOf('Violet'));
 var insects = ["Bee", "Ant", "Bee", "Bee", "Ant"];
 console.log(insects.indexOf("Ant"));
 //_______________________________________________
+console.log(animals);
+console.log(animals.unshift("monkey"));
+console.log(animals);
+//_______________________________________________
