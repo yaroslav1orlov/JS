@@ -128,3 +128,26 @@ var lastAnimal = animals.pop();
 console.log(lastAnimal);
 console.log(animals);
 //_______________________________________________
+console.log(animals);
+ var firstAnimal = animals.shift();
+  console.log(firstAnimal);
+   console.log(animals);
+    var firstAnimal = animals.shift();
+     console.log(firstAnimal);
+      console.log(animals);
+       var firstAnimal = animals.shift();
+        console.log(firstAnimal);
+         console.log(animals);
+          var firstAnimal = animals.shift();
+           console.log(firstAnimal);
+            console.log(animals);
+             var firstAnimal = animals.shift();
+              console.log(firstAnimal);
+               console.log(animals);
+                var firstAnimal = animals.shift();
+                 console.log(firstAnimal);
+                  console.log(animals);
+                   var firstAnimal = animals.shift();
+                    console.log(firstAnimal);
+                     console.log(animals);
+//_______________________________________________
