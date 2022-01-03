@@ -151,3 +151,9 @@ console.log(animals);
                     console.log(firstAnimal);
                      console.log(animals);
 //_______________________________________________
+
+var boringAnimals = ['', 'monkey', 'cat', 'fish', 'lizard', ''];
+console.log(boringAnimals.join('=- -='));
+var boringAnimals = ['monkey', 'cat', 'fish', 'lizard'];
+console.log(boringAnimals.join(' and '));
+console.log(boringAnimals.join(' & '));
