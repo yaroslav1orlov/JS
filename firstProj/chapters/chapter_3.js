@@ -1,7 +1,7 @@
 var dinosaurs = ["T-rex", "Velccirator", "Stegosaurus", "Triceratops", "Brachiosaurus",
-                "Pteranodon", "Apatosaurus", "Diplodocus", "Compsognathus"];
+    "Pteranodon", "Apatosaurus", "Diplodocus", "Compsognathus"];
 
-var print = function(arr){
+var print = function (arr) {
     for (let i = 0; i < arr.length; i++) {
         const element = arr[i];
         console.log(i + ". item: " + element);
@@ -9,15 +9,15 @@ var print = function(arr){
 }
 //_______________________________________________
 var din1 = [
-"T-rex",
- "Velccirator",
-  "Stegosaurus",
-   "Triceratops",
-    "Brachiosaurus",   
-     "Pteranodon",
-      "Apatosaurus",
-       "Diplodocus",
-        "Compsognathus"
+    "T-rex",
+    "Velccirator",
+    "Stegosaurus",
+    "Triceratops",
+    "Brachiosaurus",
+    "Pteranodon",
+    "Apatosaurus",
+    "Diplodocus",
+    "Compsognathus"
 ];
 
 print(din1)
@@ -40,7 +40,7 @@ din2[9] = "Compsognathus";
 
 print(din2)
 //_______________________________________________
-var maniacs = ['Yakko','Wakko','Dot'];
+var maniacs = ['Yakko', 'Wakko', 'Dot'];
 console.log(maniacs[0]);
 console.log(maniacs[1]);
 console.log(maniacs[2]);
@@ -74,10 +74,10 @@ animals.push("monkey");
 console.log(animals.length);
 animals.push("polarBear");
 console.log(animals.length);
-var cat =   0
-var dog =    1
-var llama =   2
-var monkey =   3
+var cat = 0
+var dog = 1
+var llama = 2
+var monkey = 3
 var polarBear = 4
 console.log('animals[0]: ' + animals[cat]);
 console.log('animals[1]: ' + animals[dog]);
@@ -129,31 +129,43 @@ console.log(lastAnimal);
 console.log(animals);
 //_______________________________________________
 console.log(animals);
- var firstAnimal = animals.shift();
-  console.log(firstAnimal);
-   console.log(animals);
-    var firstAnimal = animals.shift();
-     console.log(firstAnimal);
-      console.log(animals);
-       var firstAnimal = animals.shift();
-        console.log(firstAnimal);
-         console.log(animals);
-          var firstAnimal = animals.shift();
-           console.log(firstAnimal);
-            console.log(animals);
-             var firstAnimal = animals.shift();
-              console.log(firstAnimal);
-               console.log(animals);
-                var firstAnimal = animals.shift();
-                 console.log(firstAnimal);
-                  console.log(animals);
-                   var firstAnimal = animals.shift();
-                    console.log(firstAnimal);
-                     console.log(animals);
-//_______________________________________________
-
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+//______________________________________________>
 var boringAnimals = ['', 'monkey', 'cat', 'fish', 'lizard', ''];
 console.log(boringAnimals.join('=- -='));
 var boringAnimals = ['monkey', 'cat', 'fish', 'lizard'];
 console.log(boringAnimals.join(' and '));
 console.log(boringAnimals.join(' & '));
+//________________________________________________
+console.log('//________________________________________________')
+//________________________________________________
+var myNames = ['Nicholas', 'Andrew', 'Maxwell', 'Morgan',];
+console.log(myNames.join(" "));
+console.log(myNames.join("_"));
+console.log(myNames.join("-"));
+console.log(myNames.join(" & "));
+console.log(myNames.join(" and "));
+console.log(myNames.join("/"));
+console.log(myNames.join(" = "));
+console.log(myNames.join(" + "));
+console.log(myNames.join(" @ "));
