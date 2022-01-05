@@ -169,3 +169,8 @@ console.log(myNames.join("/"));
 console.log(myNames.join(" = "));
 console.log(myNames.join(" + "));
 console.log(myNames.join(" @ "));
+//_______________________________________________
+console.log(myNames [0] + ' ' + myNames [1] + ' ' + myNames [2] + ' ' + myNames [3]);
+//_______________________________________________
+var ages = [11, 14 ,79];
+console.log(ages.join(' '));
