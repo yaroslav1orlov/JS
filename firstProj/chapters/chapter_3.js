@@ -179,3 +179,8 @@ console.log(Math.random());
 //_______________________________________________
 console.log(Math.random()* 10);
 //_______________________________________________
+var number = 9.99;
+var numberFloor = Math.floor(number);
+console.log(number);
+console.log(numberFloor);
+//_______________________________________________
