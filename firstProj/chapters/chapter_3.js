@@ -184,3 +184,5 @@ var numberFloor = Math.floor(number);
 console.log(number);
 console.log(numberFloor);
 //_______________________________________________
+console.log(Math.floor(Math.random));
+//_______________________________________________
