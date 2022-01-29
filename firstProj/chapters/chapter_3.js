@@ -186,3 +186,6 @@ console.log(numberFloor);
 //_______________________________________________
 console.log(Math.floor(Math.random));
 //_______________________________________________
+console.log(Math.floor(Math.random)) * 10;
+console.log(Math.floor(Math.random)) * 100;
+//_______________________________________________
