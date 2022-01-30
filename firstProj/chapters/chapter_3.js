@@ -189,3 +189,6 @@ console.log(Math.floor(Math.random));
 console.log(Math.floor(Math.random)) * 10;
 console.log(Math.floor(Math.random)) * 100;
 //_______________________________________________
+var words = ['you Noob', 'you Pro', 'you Cheater', 'you Haker'];
+var randomIndex = Math.floor(Math.random() * words.length);
+console.log(words[randomIndex]);
