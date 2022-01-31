@@ -192,3 +192,17 @@ console.log(Math.floor(Math.random)) * 100;
 var words = ['you Noob', 'you Pro', 'you Cheater', 'you Haker'];
 var randomIndex = Math.floor(Math.random() * words.length);
 console.log(words[randomIndex]);
+//_______________________________________________
+console.log(words[Math.floor(Math.random() * 4)]);
+//_______________________________________________
+var phrases =[
+'Yes',
+'Yes, its got to be done',
+'That sounds good',
+'I dont think this is a good idea',
+'Not today',
+'No',
+];
+console.log(phrases[Math.floor(Math.random() * 6)]);
+//I_doing_Home_Work______________________________
+//_______________________________________________
