@@ -195,6 +195,8 @@ console.log(words[randomIndex]);
 //_______________________________________________
 console.log(words[Math.floor(Math.random() * 4)]);
 //_______________________________________________
+//I_doing_Home_Work______________________________
+console.log('I doing Home Work');
 var phrases =[
 'Yes',
 'Yes, its got to be done',
@@ -204,5 +206,17 @@ var phrases =[
 'No',
 ];
 console.log(phrases[Math.floor(Math.random() * 6)]);
-//I_doing_Home_Work______________________________
-//_______________________________________________
+//______________________________________________
+var randomBodyParts = ["eye", "nose", "skull"];
+var randomAdjectives = ["smelly", "dull", "stupid"];
+var randomWords = ["fly", "otter", "club", "monkey", "rat"];
+//Выбор случайной части тела из массива = randomBodyParts:
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
+//Выбор случайного пригласительного из массива randomAdjectives:
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * randomAdjectives.length)];
+// Выбор случайного слова из массива randomWords:
+var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
+// Соіденяем случайные строки в предложение:
+var randomIndex = ' By you ' + randomBodyPart + ' like ' + 
+randomAdjective + ' ' + randomWord + '!!!';
+console.log(randomIndex);
