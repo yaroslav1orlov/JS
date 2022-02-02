@@ -205,8 +205,10 @@ var phrases =[
 'Not today',
 'No',
 ];
+//_______________________________________________
 console.log(phrases[Math.floor(Math.random() * 6)]);
-//______________________________________________
+//_______________________________________________
+console.log('//_____________________________________________');
 var randomBodyParts = ["eye", "nose", "skull"];
 var randomAdjectives = ["smelly", "dull", "stupid"];
 var randomWords = ["fly", "otter", "club", "monkey", "rat"];
@@ -220,3 +222,10 @@ var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
 var randomIndex = ' By you ' + randomBodyPart + ' like ' + 
 randomAdjective + ' ' + randomWord + '!!!';
 console.log(randomIndex);
+//_______________________________________________
+var randomWords =[Math.floor(Math.random() *
+randomWords.lenght)];
+//_______________________________________________
+var randomInsult = ["By you", randomBodyPart, "as if"
+randomAdjective, randomWord + "!!!"].join(" ");
+//_______________________________________________
