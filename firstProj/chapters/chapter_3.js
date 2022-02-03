@@ -226,6 +226,19 @@ console.log(randomIndex);
 var randomWords =[Math.floor(Math.random() *
 randomWords.lenght)];
 //_______________________________________________
-var randomInsult = ["By you", randomBodyPart, "as if"
+var randomInsult = ["By you", randomBodyPart, "as if",
 randomAdjective, randomWord + "!!!"].join(" ");
+console.log(randomInsult);
 //_______________________________________________
+var cat = {
+"legs": 4,
+'paws': 4,
+"eyes": 2,
+'ears': 2,
+'tail': 1,
+'mouse': 1,
+'head': 1,
+'nose': 1,
+'body': 1
+};
+console.log(cat);
