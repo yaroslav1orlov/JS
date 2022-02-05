@@ -170,14 +170,14 @@ console.log(myNames.join(" = "));
 console.log(myNames.join(" + "));
 console.log(myNames.join(" @ "));
 //_______________________________________________
-console.log(myNames [0] + ' ' + myNames [1] + ' ' + myNames [2] + ' ' + myNames [3]);
+console.log(myNames[0] + ' ' + myNames[1] + ' ' + myNames[2] + ' ' + myNames[3]);
 //_______________________________________________
-var ages = [11, 14 ,79];
+var ages = [11, 14, 79];
 console.log(ages.join(' '));
 //_______________________________________________
 console.log(Math.random());
 //_______________________________________________
-console.log(Math.random()* 10);
+console.log(Math.random() * 10);
 //_______________________________________________
 var number = 9.99;
 var numberFloor = Math.floor(number);
@@ -197,13 +197,13 @@ console.log(words[Math.floor(Math.random() * 4)]);
 //_______________________________________________
 //I_doing_Home_Work______________________________
 console.log('I doing Home Work');
-var phrases =[
-'Yes',
-'Yes, its got to be done',
-'That sounds good',
-'I dont think this is a good idea',
-'Not today',
-'No',
+var phrases = [
+    'Yes',
+    'Yes, its got to be done',
+    'That sounds good',
+    'I dont think this is a good idea',
+    'Not today',
+    'No',
 ];
 //_______________________________________________
 console.log(phrases[Math.floor(Math.random() * 6)]);
@@ -219,26 +219,38 @@ var randomAdjective = randomAdjectives[Math.floor(Math.random() * randomAdjectiv
 // Выбор случайного слова из массива randomWords:
 var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
 // Соіденяем случайные строки в предложение:
-var randomIndex = ' By you ' + randomBodyPart + ' like ' + 
-randomAdjective + ' ' + randomWord + '!!!';
+var randomIndex = ' By you ' + randomBodyPart + ' like ' +
+    randomAdjective + ' ' + randomWord + '!!!';
 console.log(randomIndex);
 //_______________________________________________
-var randomWords =[Math.floor(Math.random() *
-randomWords.lenght)];
+var randomWords = [Math.floor(Math.random() *
+    randomWords.lenght)];
 //_______________________________________________
 var randomInsult = ["By you", randomBodyPart, "as if",
-randomAdjective, randomWord + "!!!"].join(" ");
+    randomAdjective, randomWord + "!!!"].join(" ");
 console.log(randomInsult);
 //_______________________________________________
 var cat = {
-"legs": 4,
-'paws': 4,
-"eyes": 2,
-'ears': 2,
-'tail': 1,
-'mouse': 1,
-'head': 1,
-'nose': 1,
-'body': 1
+    "legs": 4,
+    'paws': 4,
+    "eyes": 2,
+    'ears': 2,
+    'tail': 1,
+    'mouse': 1,
+    'head': 1,
+    'nose': 1,
+    'body': 1
 };
 console.log(cat);
+console.log(cat['legs']);
+console.log(cat['paws']);
+console.log(cat['eyes']);
+console.log(cat['ears']);
+console.log(cat['tail']);
+console.log(cat['mouse']);
+console.log(cat['head']);
+console.log(cat['nose']);
+console.log(cat['body']);
+//_______________________________________________
+
+
