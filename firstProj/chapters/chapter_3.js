@@ -251,6 +251,17 @@ console.log(cat['mouse']);
 console.log(cat['head']);
 console.log(cat['nose']);
 console.log(cat['body']);
+//способ 2
+console.log(cat.legs);
+console.log(cat.paws);
+console.log(cat.eyes);
+console.log(cat.ears);
+console.log(cat.tail);
+console.log(cat.mouse);
+console.log(cat.head);
+console.log(cat.nose);
+console.log(cat.body);
 //_______________________________________________
-
+var object = {};
+console.log(object);
 
