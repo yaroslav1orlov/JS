@@ -262,6 +262,34 @@ console.log(cat.head);
 console.log(cat.nose);
 console.log(cat.body);
 //_______________________________________________
-var object = {};
-console.log(object);
-
+var cat = {};
+    cat['legs'] = 4,
+    cat['paws'] = 4,
+    cat["eyes"] = 2,
+    cat['ears'] = 2,
+    cat['tail'] = 1,
+    cat['mouse'] = 1,
+    cat['head'] = 1,
+    cat['nose'] = 1,
+    cat['body'] = 1
+    console.log(cat);
+    //способ 1
+    console.log(cat['legs']);
+    console.log(cat['paws']);
+    console.log(cat['eyes']);
+    console.log(cat['ears']);
+    console.log(cat['tail']);
+    console.log(cat['mouse']);
+    console.log(cat['head']);
+    console.log(cat['nose']);
+    console.log(cat['body']);
+    //способ 2
+    console.log(cat.legs);
+    console.log(cat.paws);
+    console.log(cat.eyes);
+    console.log(cat.ears);
+    console.log(cat.tail);
+    console.log(cat.mouse);
+    console.log(cat.head);
+    console.log(cat.nose);
+    console.log(cat.body);
