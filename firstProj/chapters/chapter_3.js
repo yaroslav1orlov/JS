@@ -293,3 +293,12 @@ var cat = {};
     console.log(cat.head);
     console.log(cat.nose);
     console.log(cat.body);
+//_______________________________________________
+var randomBodyPart = [" vidok ", " face ", " walker "];
+var randomAdjective = [" smelly ", " dull ", " unfinished ", " knocked down "];
+var randomWords = [" murlokotan ", " dolbik ", " drevopitek "];
+var randomBodyPart  = randomBodyPart[Math.floor(Math.random()*randomBodyPart.length)];
+var randomAdjective = randomAdjective[Math.floor(Math.random()*randomAdjective.length)];
+var randomWords = randomWords[Math.floor(Math.random()*randomWords.length)];
+var result = [' By you '] + randomBodyPart + [' as if you '] + randomAdjective + randomWords;
+console.log(result);
