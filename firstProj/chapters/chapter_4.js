@@ -40,7 +40,7 @@ var kitten = {};
     kitten['head'] = 1,
     kitten['nose'] = 1,
     kitten['body'] = 1
-    console.log(cat);
+    console.log(kitten);
     //способ 1
     console.log(kitten['legs']);
     console.log(kitten['paws']);
