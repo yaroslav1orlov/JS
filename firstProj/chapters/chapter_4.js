@@ -85,3 +85,10 @@ console.log("name: " + dinosaura[1].name);
 console.log("period: " + dinosaura[1].period);
 console.log("name: " + dinosaura[2].name);
 console.log("period: " + dinosaura[2].period);
+//_______________________________________________
+var randomBodyPart = ['nose', 'hand', 'growth'];
+var randomAdjective = ['elephant', 'monkey', 'ant'];
+var randomBodyPart  = randomBodyPart[Math.floor(Math.random()*randomBodyPart.length)];
+var randomAdjective = randomAdjective[Math.floor(Math.random()*randomAdjective.length)];
+var result = ['By you '] + randomBodyPart + ['is yours more than'] + randomAdjective;
+console.log(result);
