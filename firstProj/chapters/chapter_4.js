@@ -92,3 +92,9 @@ var randomBodyPart  = randomBodyPart[Math.floor(Math.random()*randomBodyPart.len
 var randomAdjective = randomAdjective[Math.floor(Math.random()*randomAdjective.length)];
 var result = ['By you '] + randomBodyPart + ['is yours more than'] + randomAdjective;
 console.log(result);
+var anna = { name: 'Anna', age: 11, luckyNumbers: [2, 4, 8, 16] }
+var dave = { name: 'Dave', age: 5, luckyNumbers: [3, 9, 40] }
+var kaye = { name: 'Kaye', age: 9, luckyNumbers: [1, 2, 3] }
+console.log(anna);
+console.log(dave);
+console.log(kaye);
