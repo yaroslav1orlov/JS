@@ -98,3 +98,5 @@ var kaye = { name: 'Kaye', age: 9, luckyNumbers: [1, 2, 3] }
 console.log(anna);
 console.log(dave);
 console.log(kaye);
+//_______________________________________________
+console.log(name);
