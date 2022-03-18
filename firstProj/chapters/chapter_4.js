@@ -100,3 +100,10 @@ console.log(dave);
 console.log(kaye);
 //_______________________________________________
 console.log(name);
+//_______________________________________________
+var owedMoney = {};
+owedMoney["Jimmy"] = 5;
+owedMoney["Anna"] = 7;
+owedMoney["Jimmy"];
+owedMoney["Jinen"];
+//_______________________________________________
