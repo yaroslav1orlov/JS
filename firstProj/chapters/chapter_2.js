@@ -1,4 +1,4 @@
-console.log("сhapter_2");
+console.log("chapter_2");
 
 //debugger;
 // ресуем котиков________________________________
