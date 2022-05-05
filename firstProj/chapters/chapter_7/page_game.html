@@ -15,7 +15,28 @@
             answerArray[i] = '_';
         }
         var remainingLetters = word.length;
-        alert(answerArray.join(' '));
+
+        console.log(answerArray.join(' '));
+
+        while (remainingLetters > 0) {
+            // Основной код.
+          
+            // Показываем состояние игры.
+            console.log(answerArray.join(' '));
+          
+            // Запрашиваем вариант ответa.        
+            var guess = prompt('Guess the letter or press cancel to exit the game.');
+            if (guess === null) {
+                break;
+            } else if (guess.length !== 1) {
+                console.log('Please enter only one letter');
+            } else {
+                // Обновляем состояние игры
+            }
+
+            // Обновляем answerArray и remainingLetters для каждого вхождение указанной буквы.
+
+        }
     </script>
 </head>
 
