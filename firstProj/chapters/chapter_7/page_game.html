@@ -31,12 +31,19 @@
             } else if (guess.length !== 1) {
                 console.log('Please enter only one letter');
             } else {
-                // Обновляем состояние игры
+                // Обновляем состояние игры.
+                for (let i = 0; i < word.length; i++) {
+                    // Обновляем answerArray и remainingLetters для каждого вхождение указанной буквы.
+                    if (word[i] === guess) {
+                        answerArray[i] = guess;
+                        remainingLetters--;
+                    }
+                }      
             }
-
-            // Обновляем answerArray и remainingLetters для каждого вхождение указанной буквы.
-
         }
+
+        console.log(answerArray.join(' '));
+        console.log('Отлично! Было загадано слово: ' + word);
     </script>
 </head>
 
