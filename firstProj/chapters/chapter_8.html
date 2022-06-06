@@ -1,48 +1,107 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>chapter 8</title>
     <script>
-        printMultipleTimes (1, "=^.^=");
+        var ourFirstFunction = function () {
+            console.log('Hello, world!');
+        }
 
-        printMultipleTimes (2, " =^.^= ");
+        var sayHelloTo = function (name) {
+            console.log('Hello' + name + '!');
+        }
 
-        printMultipleTimes (3, "  =^.^=  ");
+        sayHelloTo('Mike');
+        sayHelloTo('Yaroslav');
+        var drawCats = function (howManiTimes) {
+            for (var i = 0; i < howManiTimes; i++) {
+                console.log(i + ' =^.^= ');
+            }
+        };
 
-        printMultipleTimes (4, "   =^.^=   ");
+        drawCats(5);
 
-        printMultipleTimes (5, "    =^.^=   ");
+        printMultipleTimes(1, "=^.^=");
+
+        printMultipleTimes(2, " =^.^= ");
+
+        printMultipleTimes(3, "  =^.^=  ");
+
+        printMultipleTimes(4, "   =^.^=   ");
+
+        printMultipleTimes(5, "    =^.^=   ");
 
         5 + Math.floor(1.2345);
 
         var double = function (number) {
-return number * 2;
-};
+            return number * 2;
+        };
 
-double (1);
+        for (let i = 0; i < 6; i++) {
+            console.log(double(i));
+        }
 
-double (2);
+        console.log("double(5) * double(5) = " + double(5) * double(5));
+        double(5) * double(5);
+        console.log("double(5) + double(5) = " + double(5) + double(5));
+        double(5) + double(5);
+        console.log("double(5) / double(5) = " + double(5) / double(5));
+        double(5) / double(5);
+        console.log("double(5) - double(5) = " + double(5) - double(5));
+        double(5) - double(5);
+        console.log("double(double(5)) = " + double(double(5)));
+        double(double(5));
+        var pickRandomWord = function (words) {
+            return words[Math.floor(Math.random() * words.length)];
+        };
+        var randomWords = ["Planet", "Worm", "Flower", "Computer"];
+        pickRandomWord(randomWords);
+        pickRandomWord(("Charlie", "Rada", "Raj", "Nicole", "Kate", "Sandy"));
+        var randomBodyParts = ["eye", "nose", "skull"];
+        var randomAdjectives = ["smelly", "dull", "stupid"];
+        var randomWords = ["fly", "Bydra", "club", "Monkey", "rat"];
+        var randomBodyPart = randomBodyParts[Math.floor(Math.random() + 3)];
+        var randomAdjective = randomAdjectives[Math.floor(Math.random() + 3)];
+        var randomWord = randomWords[Math.floor(Math.random() * 5)];
+        randomAdjective + " " + randomWord + "!!!"
+        randomInsult; "Your nose is like a stupid vypra!"
+        var randomBodyParts = ["eye", "nose", "skull"];
+        var randomAdjectives = ["smelly", "dull", "stupid"];
+        var randomWords = ["fly", "strong", "club", "monkey", "rat"];
+        var randomString = "You have " + pickRandomWord(randomBodyParts) + + " like " + pickRandomWord(randomAdjectives)
+        " " + pickRandomWord(randomWords) + "!!!";
+        randomString;
+        "Your nose is like a stupid vyprya!"
+        var generateRandomInsult = function () {
+            var randomBodyParts = ["eye", "nose", "black"];
+            var randomAdjectives = ["smelly", "dull", "stupid"];
+            var randomWords = ["Myxa", "otter", "club", "monkey", "rat"];
+            var randomstring = "You have " + pickRandonword(randomBodyParts)++
+            "like" + pickFandomWord(randomAdjectives)++
+            "" + pickRandomWord(randomWords) + "!!!"; return randomString;
+        };
+        generateRandomInsult();
+        "Your skull is like a dull club!!!"
+        generateRandomInsult();
+        "Your nose is like a stupid card!"
+        generateRandomInsult();
+        "Your eye is like a stink fly!"
+        var fifthLetter = function (name) {
 
-double (3);
+            if (name.length < 5) {
 
-double (4);
+                return;
 
-double (5);
+                return "Пятая буква вашего имени: " + name[4] + ".";
 
-double (5) * double (5);
-
-double (5) + double (5);
-
-double (5) / double (5);
-
-double (5) - double (5);
-
-double(double (5));
-
-randomWords[Math.floor(Math.random() * randomWords.length)];
+            }
+            };
     </script>
 </head>
+
 <body>
     <h1>Hello, chapter 8!</h1>
 </body>
+
 </html>
