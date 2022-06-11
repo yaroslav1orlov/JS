@@ -96,9 +96,28 @@
                 return "Пятая буква вашего имени: " + name[4] + ".";
 
             }
-            };
-fifthletter("Николай");
-console.log('fifthletter("Ник"); = undefinet');
+        };
+        fifthletter("Николай");
+
+        fifthletter("Ник");
+
+        var medalForScore = function (score) {
+
+            if (score < 3) {
+
+                return "Бронзовая";
+            }
+
+            if (score < 7) {
+
+                return "Серебряная";
+            }
+
+            return "Золотая";
+        };
+    </script>
+</head>
+
 <body>
     <h1>Hello, chapter 8!</h1>
 </body>
