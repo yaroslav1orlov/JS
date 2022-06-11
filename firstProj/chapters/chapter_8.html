@@ -103,18 +103,28 @@
 
         var medalForScore = function (score) {
 
-            if (score < 3) {
+            if (score < 4) {
 
                 return "Бронзовая";
             }
+            console.log(medalForScore(1));
+            console.log(medalForScore(2));
+            console.log(medalForScore(3));
 
             if (score < 7) {
 
                 return "Серебряная";
             }
+            console.log(medalForScore(4));
+            console.log(medalForScore(5));
+            console.log(medalForScore(6));
 
             return "Золотая";
         };
+        console.log(medalForScore(7));
+        console.log(medalForScore(8));
+        console.log(medalForScore(9));
+
     </script>
 </head>
 
