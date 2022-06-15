@@ -22,6 +22,12 @@
 
         drawCats(5);
 
+        var printMultipleTimes = function (i, content) {
+            for (let y = 0; y < i; y++) {
+                console.log(y + ". " + content);
+            }
+        } 
+
         printMultipleTimes(1, "=^.^=");
 
         printMultipleTimes(2, " =^.^= ");
@@ -60,12 +66,13 @@
         pickRandomWord(("Charlie", "Rada", "Raj", "Nicole", "Kate", "Sandy"));
         var randomBodyParts = ["eye", "nose", "skull"];
         var randomAdjectives = ["smelly", "dull", "stupid"];
-        var randomWords = ["fly", "Bydra", "club", "Monkey", "rat"];
+        var randomWords = ["fly", "bydra", "club", "monkey", "rat"];
         var randomBodyPart = randomBodyParts[Math.floor(Math.random() + 3)];
         var randomAdjective = randomAdjectives[Math.floor(Math.random() + 3)];
         var randomWord = randomWords[Math.floor(Math.random() * 5)];
         randomAdjective + " " + randomWord + "!!!"
-        randomInsult; "Your nose is like a stupid vypra!"
+        var randomInsult = 'You heve a ' + randomBodyPart + "like a " + randomWord;
+        console.log(randomInsult); 
         var randomBodyParts = ["eye", "nose", "skull"];
         var randomAdjectives = ["smelly", "dull", "stupid"];
         var randomWords = ["fly", "strong", "club", "monkey", "rat"];
@@ -77,9 +84,8 @@
             var randomBodyParts = ["eye", "nose", "black"];
             var randomAdjectives = ["smelly", "dull", "stupid"];
             var randomWords = ["Myxa", "otter", "club", "monkey", "rat"];
-            var randomstring = "You have " + pickRandonword(randomBodyParts)++
-            "like" + pickFandomWord(randomAdjectives)++
-            "" + pickRandomWord(randomWords) + "!!!"; return randomString;
+            var randomstring = "You have " + pickRandomWord(randomBodyParts) + "like" + pickRandomWord(randomAdjectives) + " " + pickRandomWord(randomWords) + "!!!"; 
+            return randomString;
         };
         generateRandomInsult();
         "Your skull is like a dull club!!!"
@@ -88,18 +94,17 @@
         generateRandomInsult();
         "Your eye is like a stink fly!"
         var fifthLetter = function (name) {
-
-            if (name.length < 5) {
-
-                return;
-
-                return "Пятая буква вашего имени: " + name[4] + ".";
-
+            if (name.length > 5) {
+                return "Пятая буква имени '" + name + "': " + name[4] + ".";
+            }
+            else
+            {
+                return "Ошибка! Имя: '"+ name + "' слишком короткое."
             }
         };
-        fifthletter("Николай");
 
-        fifthletter("Ник");
+        console.log(fifthLetter("Mihail"));
+        console.log(fifthLetter("Mike"));
 
         var medalForScore = function (score) {
 
@@ -124,6 +129,27 @@
         console.log(medalForScore(7));
         console.log(medalForScore(8));
         console.log(medalForScore(9));
+
+        var add = function (a, b) {
+            return a + b;
+        };
+        var ar1 = 9824; 
+        var ar2 = 777; 
+        console.log(ar1 + " + " + ar2 + " = " + add(ar1, ar2));
+   
+        var multiply = function (a, b) {
+            return a * b;
+        };
+
+        var ar3 = 36325; 
+        console.log(ar3 + " * " + ar1 + " = " + multiply(ar3, ar1));
+        
+        var res1 = multiply(ar3, ar1) 
+        console.log(ar3 + " * " + ar1 + " = " + res1);
+        
+        var res2 = add(res1, ar2);
+        console.log(res1 + " + " + ar2 + " = " + res2);
+        
 
     </script>
 </head>
