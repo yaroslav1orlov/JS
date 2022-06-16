@@ -4,6 +4,7 @@
 <head>
     <title>chapter 8</title>
     <script>
+        
         var ourFirstFunction = function () {
             console.log('Hello, world!');
         }
@@ -157,27 +158,35 @@
 
             return false;
         };
+
         var arr1 = [1, 2, 3];
         var arr2 = [4, 5, 6];
         
-        var ar1 = 9824;
-        var ar2 = 777;
         console.log(ar1 + " + " + ar2 + " = " + add(ar1, ar2));
         var minus = function (a, b) {
             return a - b;
         };
+
         var division = function (a, b) {
             return a / b;
         };
-        var ar3 = 36325;
+
         console.log(ar3 + " / " + ar1 + " = " + division(ar3, ar1));
 
-        var res1 = division(ar3, ar1)
-        console.log(ar3 + " / " + ar1 + " = " + res1);
+        var res3 = division(ar3, ar1)
+        console.log(ar3 + " / " + ar1 + " = " + res3);
 
-        var res2 = minus(res1, ar2);
-        console.log(res1 + " - " + ar2 + " = " + res2);
+        var res4 = minus(res3, ar2);
+        console.log(res3 + " - " + ar2 + " = " + res4);
+      
+        var g = 5
+        var h = 2
 
+        var remainderOfTheDivision = function (a, b) {
+            return a % b;
+        };
+
+        console.log(g + "%" + h + remainderOfTheDivision(5, 2));
     </script>
 </head>
 
