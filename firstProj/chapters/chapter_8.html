@@ -154,12 +154,30 @@
             if (c.length == d.length) {
                 
             }
-            
+
             return false;
         };
-         
         var arr1 = [1, 2, 3];
         var arr2 = [4, 5, 6];
+        
+        var ar1 = 9824;
+        var ar2 = 777;
+        console.log(ar1 + " + " + ar2 + " = " + add(ar1, ar2));
+        var minus = function (a, b) {
+            return a - b;
+        };
+        var division = function (a, b) {
+            return a / b;
+        };
+        var ar3 = 36325;
+        console.log(ar3 + " / " + ar1 + " = " + division(ar3, ar1));
+
+        var res1 = division(ar3, ar1)
+        console.log(ar3 + " / " + ar1 + " = " + res1);
+
+        var res2 = minus(res1, ar2);
+        console.log(res1 + " - " + ar2 + " = " + res2);
+
     </script>
 </head>
 
