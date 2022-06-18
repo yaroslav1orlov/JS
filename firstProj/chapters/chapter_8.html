@@ -4,7 +4,7 @@
 <head>
     <title>chapter 8</title>
     <script>
-        
+
         var ourFirstFunction = function () {
             console.log('Hello, world!');
         }
@@ -94,11 +94,11 @@
         "Your nose is like a stupid card!"
         generateRandomInsult();
         "Your eye is like a stink fly!"
-        
+
         var fifthLetter = function (name) {
             if (name.length > 4) {
-            return "Пятая буква имени '" + name + "': " + name[4] + ".";
-        }
+                return "Пятая буква имени '" + name + "': " + name[4] + ".";
+            }
             else {
                 return "Ошибка! Имя: '" + name + "' слишком короткое."
             }
@@ -153,7 +153,7 @@
 
         var areArraysSame = function (c, d) {
             if (c.length == d.length) {
-                
+
             }
 
             return false;
@@ -161,7 +161,7 @@
 
         var arr1 = [1, 2, 3];
         var arr2 = [4, 5, 6];
-        
+
         console.log(ar1 + " + " + ar2 + " = " + add(ar1, ar2));
         var minus = function (a, b) {
             return a - b;
@@ -178,15 +178,38 @@
 
         var res4 = minus(res3, ar2);
         console.log(res3 + " - " + ar2 + " = " + res4);
-      
-        var g = 5
-        var h = 2
 
         var remainderOfTheDivision = function (a, b) {
             return a % b;
         };
 
-        console.log(g + "%" + h + remainderOfTheDivision(5, 2));
+        var g = 5;
+        var h = 2;
+
+        console.log(g + "%" + h + remainderOfTheDivision(g, h));
+
+        var show = function (arr) {
+            for (let i = 0; i < arr.length; i++) {
+                console.log(arr[i]);
+            }
+        };
+
+        show([1, 2, 3]);
+
+        var sum = function (arr) {
+            var s = 0;
+            for (let i = 0; i < arr.length; i++) {
+                s = s + arr[i];
+            }
+
+            return s;
+        };
+
+        console.log(sum([2]));
+        console.log(sum([]));
+        console.log(sum([100, 100, 100]));
+        
+
     </script>
 </head>
 
