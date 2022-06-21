@@ -207,8 +207,15 @@
 
         console.log(sum([2]));
         console.log(sum([]));
+        console.log(sum([25, 20, 55, 50]));
         console.log(sum([100, 100, 100]));
-        
+
+        var avg = function (arr) {
+            var d = sum(arr) / arr.length;
+            return d;
+        };
+        var arr3 = [10, 8];
+        console.log("（╹◡╹）Среднее арифметическое（╹◡╹）= " + avg(arr3));
 
     </script>
 </head>
