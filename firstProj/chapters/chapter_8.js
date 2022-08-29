@@ -226,6 +226,5 @@ var arr11 = [1, 2, 3, 4];
 var res1 = areArraySame(arr1, arr11);
 console.log(Object.keys({arr1})[0] + " == " + Object.keys({arr11})[0] + ": " + res1)
 
-
 var arr3 = [10, 8];
 console.log("（╹◡╹）Среднее арифметическое（╹◡╹）= " + avg(arr3));
