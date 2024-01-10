@@ -1,0 +1,22 @@
+
+git clone url
+
+git pull
+
+git add . && git commit -m"Message" && git push
+
+git status
+
+git diff
+
+git add
+
+git commit 
+
+git push
+
+git branch
+
+git checkout master -f
+
+history
